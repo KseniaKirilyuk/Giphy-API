@@ -9,6 +9,9 @@ form#topic-form {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+label {
+    white-space: nowrap;
+}
 input#topic-input {
     background-color: aliceblue;
     font-size: 20px;

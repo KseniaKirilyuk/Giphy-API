@@ -48,8 +48,8 @@ function showGifs(){
         	newGif.addClass("gifStill");
         	newGif.attr("src",gifUrl);
         	//gifElement = $("<figure>" + newGif + "</figure>");
-        	$("#gif-view").append(newGif);
-        	$(newGif).wrap( "<figure class='imgWrap'></figure>" );
+        	$("#gif-view").append($("<figure>").append(newGif));
+        	//$(newGif).wrap( "<figure class='imgWrap'></figure>" );
         }
         	    
         });
